@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Brian's Assignment 7</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style7.css">
+  </head>
+  <body>
+  
+    <header><a href="ass7.html">Assignment 7</a></header>
+    <nav>
+      <div class="menu-label">Menu</div>
+      <ul id="nav-items">
+        <li><a href="index.html">
+          Assignment 1
+        </a></li>
+        <li><a href="ass2.html">
+          Assignment 2
+        </a></li>
+        <li><a href="ass3.html">
+          Assignment 3
+        </a></li>
+        <li><a href="ass4.html">
+          Assignment 4
+        </a></li>
+        <li><a href="ass5.html">
+          Assignment 5
+        </a></li>
+        <li><a href="ass6.html">
+          Assignment 6
+        </a></li>
+      </ul>
+      <a class="toggle" onclick="showNav()"><i class="fa fa-bars"></i></a>
+    </nav>
+    <main>
+      <article>
+          <h2>Rocket league Championships</h2>
+          <table>
+              <caption>My favorite RLCS teams and their best player</caption>
+              <thead>
+                  <tr>
+                      <th id="team">Team</th>
+                      <th id="playstyle">Playstyle</th>
+                      <th id="player">Player</th>
+                      <th id="skillset">Skill set</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td headers="team">NRG</td>
+                      <td headers="playstyle">Adaptive & team oriented</td>
+                      <td headers="player">GarretG</td>
+                      <td headers="skillset">Vision & IQ</td>
+                  </tr>
+                  <tr>
+                      <td headers="team">DIG</td>
+                      <td headers="playstyle">Solo talent & fast</td>
+                      <td headers="player">ApparentlyJack</td>
+                      <td headers="skillset">Skill ceiling & recoveries</td>
+                  </tr>
+                  <tr>
+                      <td headers="team">SMPR</td>
+                      <td headers="playstyle">Give ball to Archie</td>
+                      <td headers="player">Archie</td>
+                      <td headers="skillset">Vision & carry potential</td>
+                  </tr>
+                  <tr>
+                      <td headers="team">Endpoint</td>
+                      <td headers="playstyle">Counter attack</td>
+                      <td headers="player">Seikoo</td>
+                      <td headers="skillset">Speed & solo ability</td>
+                  </tr>
+                  <tr>
+                      <td headers="team">Complexity</td>
+                      <td headers="playstyle">Fast & aggressive</td>
+                      <td headers="player">Shad</td>
+                      <td headers="skillset">Recoveries & consistency</td>
+                  </tr>
+                  <tr>
+                      <td headers="team">Faze</td>
+                      <td headers="playstyle">Controlling</td>
+                      <td headers="player">Ayyjayy</td>
+                      <td headers="skillset">Mechanical & unpredictable</td>
+                  </tr>
+              </tbody>
+              <tfoot>
+                  <tr>
+                      <td colspan="4">All selections based on the RLCS 2021-22 season before the 1st major in Sweden.</td>
+                  </tr>
+              </tfoot>
+          </table>
+      </article>
+      <aside>
+          <h2>RLCS discussion form</h2>
+          <form method="post"
+          action="https://learndigital.dev/programs/dgl103-form.php">
+            <label for="fname">First name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Ex: John"><br>
+            <label for="lname">Last name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Ex: Doe"><br>
+            <label for="gtag">Gamertag</label>
+              <input type="text" id="gtag" name="gamertag" placeholder="Ex: RocketcarJohn"><br>
+            <label for="favregion">Favorite RLCS region</label>
+              <br><select size="1" name="favregion" id="favregion">
+                <option>Select your favorite region</option>
+                <option value="NA">North America</option>
+                <option value="EU">Europe</option>
+                <option value="OCE">Oceania</option>
+                <option value="SAM">South America</option>
+                <option value="MINA">Middle East & North Africa</option>
+                <option value="APACN">Asia-Pacific North</option>
+                <option value="APACS">Asia-Pacific South</option>
+                <option value="SSA">Sub-Saharan Africa</option>
+              </select><br>
+            <label for="favteam">Favorite RLCS team</label><br>
+              <input type="text" id="favteam" name="favteam" placeholder="Ex: SSG"><br>
+            <label for="teamattribute">Most important team attribute</label><br>
+              <input type="radio" name="teamatt" id="aggro" value="aggro">Aggression
+              <input type="radio" name="teamatt" id="def" value="def">Defense <br>
+              <input type="radio" name="teamatt" id="mech" value="mechanics">Mechanics
+              <input type="radio" name="teamatt" id="trans" value="transition">Transition speed<br>
+              <input type="radio" name="teamatt" id="tact" value="tactics">Tactical plays
+              <input type="radio" name="teamatt" id="other" value="other">Other<br>
+            <label for="indattribute">Most important individual attribute</label><br>
+              <input type="radio" name="indatt" id="mechanic" value="mech">Mechanics
+              <input type="radio" name="indatt" id="recover" value="recovery">Recoveries<br>
+              <input type="radio" name="indatt" id="mental" value="mental">Mental game
+              <input type="radio" name="indatt" id="create" value="creative">Creativity<br>
+              <input type="radio" name="indatt" id="teamplay" value="teamplay">Team player
+              <input type="radio" name="indatt" id="others" value="other">Other<br>
+            <div class="button-wrap">
+                <input type="reset" value="reset">
+                <input type="submit" value="submit">
+            </div>
+
+          </form>
+      </aside>
+    </main>
+    <footer><a href="https://liquipedia.net/rocketleague/Main_Page">
+        Click me to go to liquipedia's rocket league page for more RLCS statistics!
+    </a></footer>
+  
+    <script>
+      function showNav() {
+        var element = document.getElementById("nav-items");
+        element.classList.toggle("show-items");
+      }
+    </script>
+  </body>
+  </html>
