@@ -26,8 +26,131 @@
         </div>
     </nav>
     <main>
+        <div>
+            <h2>About Us</h2> <!--Add an image to the right side of this of the team.-->
+            <p>Window Masters Nanaimo is a small local business based out of Nanaimo, BC.
+                Our goal is to provide excellent services and to help you help your property. 
+                We started back in XXXX and have many return customers. We pride ourselves on our diligence, 
+                honesty, attention to detail, and excellent customer service.
+            </p>
+        </div>
+        <aside>
+            <h2>Inquiries</h2>
+            <form method="post"><!--Add an action for this form, aka a place for it to send and confirmation-->
+                <label for="fname">First name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Ex: John" required><br>
+                <label for="lname">Last name</label>
+                  <input for="lname" id="lname" name="lastname" placeholder="Ex: Doe" required><br>
+                <label for="email">Email</label>
+                  <input type="email" id="email" name="email" placeholder="Ex: JohnDoe@WindowMastersNanaimo.com" required><br>
+                <label for="phone">Phone number</label>
+                  <input type="tel" id="phone" name="phone" placeholder="Ex: 250-xxx-xxxx">
+                <label for="typeinquiry">Type of inquiry</label>
+                  <select size="1" name="typeinquiry" id="typeinquiry">
+                      <option>Select type of inquiry</option>
+                      <option value="residential">Residential</option>
+                      <option value="commercial">Commercial</option>
+                      <option value="strata">Strata</option>
+                      <option value="other">Other</option>
+                  </select>
+                <label for="service">Services</label><br>
+                  <input type="radio" name="siding" id="siding" value="siding">Siding<!--Change to exterior cleaning-->
+                  <input type="radio" name="windows" id="windows" value="windows">Windows<br>
+                  <input type="radio" name="concrete" id="concrete" value="concrete">Concrete
+                  <input type="radio" name="demoss" id="demoss" value="demoss">De-Mossing<br>
+                  <input type="radio" name="deck" id="deck" value="deck">Deck cleaning
+                  <input type="radio" name="gutters" id="gutters" value="gutters">Gutters<br>
+                  <input type="radio" name="other" id="other" value="other">Other<br>
+                <label for="comments">Comments</label>
+                  <input type="text" id="comments" name="comments">
+            </form>
+        </aside>
+        <div>
+            <h2>Residential Services</h2>
+            <p>We offer services such as:</p><br>
+            <ul><!--Add icons to each list item representing the type of service-->
+                <li>Exterior cleaning</li>
+                <li>Windows</li>
+                <li>Concrete</li>
+                <li>De-mossing</li>
+                <li>Deck cleaning</li>
+                <li>Gutters</li>
+            </ul><br>
+            <p>We will come personally and give you a quote on your home. <!--add more text?-->
+                Our quote will involve us walking around your home with you to give you an idea of what we will do.
+                Also feel free to bring any concernes or questions up with us at any time. You can also ask 
+                ahead of time with our "Inquiry" form.
+            </p><!--add link to position of Contact form with a button in the bottom right, also link to more info on left to residential page-->
+        </div>
+        <div>
+            <h2>Commercial Services</h2>
+            <p>We offer services such as:</p><br>
+            <ul>
+                <li>Exterior cleaning</li>
+                <li>Windows</li>
+                <li>Concrete</li>
+                <li>De-mossing</li>
+                <li>Deck cleaning</li>
+                <li>Gutters</li>
+            </ul><br>
+            <p>We offer contracts for our services, we will personally walk around the business to talk about what 
+                we can offer, what our expertise is, and why we are the best for the job. We guarentee that you will 
+                get what you pay for and look forward to proving why we are the best. Please feel free to ask any questions 
+                or get any concernes answered my using the "Inquiry" form.
+            </p><!--add link to position of form in bottom right, also more info on the left with link to commercial page-->
+        </div>
+        <div>
+            <h2>Strata Services</h2>
+            <p>We offer services such as:</p><br>
+            <ul>
+                <li>Exterior cleaning</li>
+                <li>Windows</li>
+                <li>Concrete</li>
+                <li>De-mossing</li>
+                <li>Deck cleaning</li>
+                <li>Gutters</li>
+            </ul><br>
+            <p>We offer discounts for our services when you group multiple units of your strata into a single job. 
+                We will meet you at the strata and do a walk around to discuss what we can offer and when we can offer it. 
+                We are confident that you will be completely satisfied with our services and that you will get the full experience.
+                 If you have any further questions feel free to sent them threw the "Inquiry" form.
+            </p><!--add link to position of form to bottom right and link to Strata page in bottom left-->
+        </div>
+          <h2>Why Choose Us</h2>
+        <article>
+            <h3>We know our stuff</h3>
+            <p>We have been in the exterior cleaning business for X years. We have taken tons of advise from 
+                peers and have offer the safest and most lasting solution we can. Year after year we are always 
+                improving upon our tactics and adjusting how we do things to make sure we are leaving you with 
+                the best experience possible.
+            </p>
+        </article>
+        <article>
+            <h3>Don't Harm Your Property</h3>
+            <p>One of the things we pride ourselves on the most is our process and part of this process is the 
+                products we use. We use a biodegradable pre-wash that is completely safe and will not damage your 
+                siding, grass, soil, pets, or anything else you may have outside. We also use extender poles with a 
+                micro-fiber brush that will not scratch or damage any of your siding and will instead get into 
+                all of the groves and give it a full clean.
+            </p>
+        </article>
+        <article>
+            <h3>Friendly & Dedicated</h3>
+            <p>We pride ourselves on offering a full, great experience. This starts with introduction 
+                we are super friendly and easy to get along with. We also are extremely dedicated to our 
+                work so if you ever have concernes or questions we will happily answer them.
+            </p>
+        </article>
+        <article>
+            <h3>Local Business</h3>
+            <p>Ontop of everything else we have to offer we are a local business. By employing us you are 
+                employing people from your community. Based out of Nanaimo we have so far done 1000's of exterior 
+                cleaning jobs. If you like to support local, we are a local business that will work for your 
+                support.
+            </p>
+        </article>
     </main>
-    <footer>
+    <footer><!--add logo, all links to other pages including socials-->
     </footer>
 </body>
 </html>
