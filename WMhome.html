@@ -26,7 +26,8 @@
         </div>
     </nav>
     <main>
-        <div>
+        <div class="wrap">
+        <div class="aboutus">
             <h2>About Us</h2> <!--Add an image to the right side of this of the team.-->
             <p>Window Masters Nanaimo is a small local business based out of Nanaimo, BC.
                 Our goal is to provide excellent services and to help you help your property. 
@@ -34,17 +35,17 @@
                 honesty, attention to detail, and excellent customer service.
             </p>
         </div>
-        <aside>
+        <aside class="inquiry">
             <h2>Inquiries</h2>
             <form method="post"><!--Add an action for this form, aka a place for it to send and confirmation-->
-                <label for="fname">First name</label>
+                <label for="fname">First name</label><!--add submit and reset buttons to all pages-->
                   <input type="text" id="fname" name="firstname" placeholder="Ex: John" required><br>
                 <label for="lname">Last name</label>
                   <input for="lname" id="lname" name="lastname" placeholder="Ex: Doe" required><br>
                 <label for="email">Email</label>
                   <input type="email" id="email" name="email" placeholder="Ex: JohnDoe@WindowMastersNanaimo.com" required><br>
                 <label for="phone">Phone number</label>
-                  <input type="tel" id="phone" name="phone" placeholder="Ex: 250-xxx-xxxx">
+                  <input type="tel" id="phone" name="phone" placeholder="Ex: 250-xxx-xxxx"><br>
                 <label for="typeinquiry">Type of inquiry</label>
                   <select size="1" name="typeinquiry" id="typeinquiry">
                       <option>Select type of inquiry</option>
@@ -52,7 +53,7 @@
                       <option value="commercial">Commercial</option>
                       <option value="strata">Strata</option>
                       <option value="other">Other</option>
-                  </select>
+                  </select><br>
                 <label for="service">Services</label><br>
                   <input type="radio" name="siding" id="siding" value="siding">Siding<!--Change to exterior cleaning-->
                   <input type="radio" name="windows" id="windows" value="windows">Windows<br>
@@ -61,11 +62,13 @@
                   <input type="radio" name="deck" id="deck" value="deck">Deck cleaning
                   <input type="radio" name="gutters" id="gutters" value="gutters">Gutters<br>
                   <input type="radio" name="other" id="other" value="other">Other<br>
-                <label for="comments">Comments</label>
-                  <input type="text" id="comments" name="comments">
+                Comments:<br>
+                  <textarea name="comments" id="comments"></textarea>
             </form>
         </aside>
-        <div>
+        </div>
+        <div class="services">
+        <div class="sectionleft">
             <h2>Residential Services</h2>
             <p>We offer services such as:</p><br>
             <ul><!--Add icons to each list item representing the type of service-->
@@ -82,7 +85,7 @@
                 ahead of time with our "Inquiry" form.
             </p><!--add link to position of Contact form with a button in the bottom right, also link to more info on left to residential page-->
         </div>
-        <div>
+        <div class="sectionmid">
             <h2>Commercial Services</h2>
             <p>We offer services such as:</p><br>
             <ul>
@@ -99,7 +102,7 @@
                 or get any concernes answered my using the "Inquiry" form.
             </p><!--add link to position of form in bottom right, also more info on the left with link to commercial page-->
         </div>
-        <div>
+        <div class="sectionright">
             <h2>Strata Services</h2>
             <p>We offer services such as:</p><br>
             <ul>
@@ -116,8 +119,10 @@
                  If you have any further questions feel free to sent them threw the "Inquiry" form.
             </p><!--add link to position of form to bottom right and link to Strata page in bottom left-->
         </div>
+        </div>
           <h2>Why Choose Us</h2>
-        <article>
+        <div class="whychooseus">
+        <article class="sectionleft">
             <h3>We know our stuff</h3>
             <p>We have been in the exterior cleaning business for X years. We have taken tons of advise from 
                 peers and have offer the safest and most lasting solution we can. Year after year we are always 
@@ -125,7 +130,7 @@
                 the best experience possible.
             </p>
         </article>
-        <article>
+        <article class="sectionmid">
             <h3>Don't Harm Your Property</h3>
             <p>One of the things we pride ourselves on the most is our process and part of this process is the 
                 products we use. We use a biodegradable pre-wash that is completely safe and will not damage your 
@@ -134,14 +139,14 @@
                 all of the groves and give it a full clean.
             </p>
         </article>
-        <article>
+        <article class="sectionmid">
             <h3>Friendly & Dedicated</h3>
             <p>We pride ourselves on offering a full, great experience. This starts with introduction 
                 we are super friendly and easy to get along with. We also are extremely dedicated to our 
                 work so if you ever have concernes or questions we will happily answer them.
             </p>
         </article>
-        <article>
+        <article class="sectionright">
             <h3>Local Business</h3>
             <p>Ontop of everything else we have to offer we are a local business. By employing us you are 
                 employing people from your community. Based out of Nanaimo we have so far done 1000's of exterior 
@@ -149,6 +154,7 @@
                 support.
             </p>
         </article>
+        </div>
     </main>
     <footer><!--add logo, all links to other pages including socials-->
     </footer>

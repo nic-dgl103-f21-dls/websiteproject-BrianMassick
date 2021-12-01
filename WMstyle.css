@@ -3,6 +3,12 @@ body {
     font-size:62.5%;
     font-size:1.6rem;
 }
+p {
+    font-size:1.2rem;
+}
+h2 {
+    text-align:center;
+}
 .titles {
     display:flex;
     flex-wrap:wrap;
@@ -10,6 +16,7 @@ body {
     justify-content:center;
 }
 nav {
+    margin:10px;
     background-color:green;
 }
 nav .wrap{
@@ -41,7 +48,66 @@ nav li a:hover {
     background-color:white;
     color:aqua;
 }
+.inquiry {
+    border:5px solid black;
+    margin:10px;
+    padding:5px;
+    font-size:1.2rem;
+    position:sticky;
+    width:30%;
+    float:right;
+    text-align:center;
+}
+.wrap {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    width:100%;
+    max-width:100%;
+}
 /* This is the css for the HOME page */
+.aboutus {
+    width:60%;
+    margin:10px;
+    padding:1%;
+    border:5px solid black;
+}
+.services {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    width:100%;
+    max-width:100%;
+    white-space:normal;
+}
+.sectionleft {
+    border:5px solid black;
+    padding:5px;
+    margin:5px;
+    text-align:center;
+    /* add shadow to make it look like leaning inwards */
+}
+.sectionmid {
+    border:5px solid black;
+    padding:5px;
+    margin:5px;
+    text-align:center;
+    /* add full shadow */
+}
+.sectionright {
+    border:5px solid black;
+    padding:5px;
+    margin:5px;
+    text-align:center;
+    /* add shadow to make it look like leaning inwards */
+}
+.whychooseus {
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+    max-width:100%;
+    white-space:normal;
+}
 /* This is the css for the RESIDENTIAL page */
 /* This is the css for the COMMERCIAL page */
 /* This is the css for the GALLERY page */
