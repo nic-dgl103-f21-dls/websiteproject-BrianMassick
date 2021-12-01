@@ -109,5 +109,34 @@ nav li a:hover {
     white-space:normal;
 }
 /* This is the css for the RESIDENTIAL page */
+.resservices {
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:space-around;
+    width:100%;
+    max-width:100%;
+    font-size:1.0rem;
+}
+.ressectionleft {
+    border:5px solid black;
+    padding:5px;
+    margin:5px;
+    text-align:center;
+    /* add shadow to make it look like leaning inwards */
+}
+.ressectionmid {
+    border:5px solid black;
+    padding:5px;
+    margin:5px;
+    text-align:center;
+    /* add shadow */
+}
+.ressectionright {
+    border:5px solid black;
+    padding:5px;
+    margin:5px;
+    text-align:center;
+    /* add shadow to make it look like leaning inwards */
+}
 /* This is the css for the COMMERCIAL page */
 /* This is the css for the GALLERY page */
