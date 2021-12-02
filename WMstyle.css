@@ -81,7 +81,9 @@ nav li a:hover {
     width:99%;
     max-width:99%;
 }
-/* This is the css for the HOME page */
+/* This is the css for the HOME page 
+   Will be updated when more info is provided
+*/
 .aboutus {
     background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/teamphoto.jpg");
     background-size:cover;
@@ -164,7 +166,9 @@ nav li a:hover {
     margin:5px;
     text-align:center;
 }
-/* This is the css for the RESIDENTIAL page */
+/* This is the css for the RESIDENTIAL page 
+   Will be updated when more info is provided
+*/
 .beforeafter {
     display:flex;
     flex-direction:row;
@@ -245,7 +249,9 @@ nav li a:hover {
     text-align:center;
     /* add shadow to make it look like leaning inwards */
 }
-/* This is the css for the STRATA page */
+/* This is the css for the STRATA page 
+   Will be updated when more info is provided
+*/
 #stratadiscounts {
     background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/Windowmastersfull.png");
     background-size:cover;
@@ -317,5 +323,80 @@ nav li a:hover {
     margin:5px;
     text-align:center;
 }
-/* This is the css for the COMMERCIAL page */
-/* This is the css for the GALLERY page */
+/* This is the css for the COMMERCIAL page
+   Will be updated when more info is provided
+*/
+.commercialproposal {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/Windowmastersfull.png");
+    background-size:cover;
+    background-position:center;
+    width:95%;
+    margin:10px;
+    padding:1%;
+    border:5px solid black;
+}
+.commercialservices {
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:space-around;
+    width:100%;
+    max-width:100%;
+    font-size:1.0rem;
+}
+.comservicetopleft {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/WMafter.jpg");
+    background-size:cover;
+    background-position:center;
+    border:5px solid black;
+    padding:5px;
+    margin:5px;
+    text-align:center;
+}
+.comservicetopmid {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/windows.jpg");
+    background-size:cover;
+    background-position:center;
+    border:5px solid black;
+    padding:5px;
+    margin:5px;
+    text-align:center;
+}
+.comservicetopright {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/Deck.jpg");
+    background-size:cover;
+    background-position:center;
+    border:5px solid black;
+    padding:5px;
+    margin:5px;
+    text-align:center;
+}
+.comservicebottomleft {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/demoss.jpg");
+    background-size:cover;
+    background-position:center;
+    border:5px solid black;
+    padding:5px;
+    margin:5px;
+    text-align:center;
+}
+.comservicebottommid {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/Gutters.jpg");
+    background-size:cover;
+    background-position:center;
+    border:5px solid black;
+    padding:5px;
+    margin:5px;
+    text-align:center;
+}
+.comservicebottomright {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/concrete.jpg");
+    background-size:cover;
+    background-position:center;
+    border:5px solid black;
+    padding:5px;
+    margin:5px;
+    text-align:center;
+}
+/* This is the css for the GALLERY page 
+   Will be updated when more info is provided
+*/
