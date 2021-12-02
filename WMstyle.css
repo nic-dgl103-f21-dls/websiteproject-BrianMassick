@@ -246,6 +246,76 @@ nav li a:hover {
     /* add shadow to make it look like leaning inwards */
 }
 /* This is the css for the STRATA page */
-
+#stratadiscounts {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/Windowmastersfull.png");
+    background-size:cover;
+    background-position:center;
+    width:95%;
+    margin:10px;
+    padding:1%;
+    border:5px solid black;
+}
+.strataservices {
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:space-around;
+    width:100%;
+    max-width:100%;
+    font-size:1.0rem;
+}
+.strataservicetopleft {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/WMafter.jpg");
+    background-size:cover;
+    background-position:center;
+    border:5px solid black;
+    padding:5px;
+    margin:5px;
+    text-align:center;
+}
+.strataservicetopmid {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/windows.jpg");
+    background-size:cover;
+    background-position:center;
+    border:5px solid black;
+    padding:5px;
+    margin:5px;
+    text-align:center;
+}
+.strataservicetopright {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/Deck.jpg");
+    background-size:cover;
+    background-position:center;
+    border:5px solid black;
+    padding:5px;
+    margin:5px;
+    text-align:center;
+}
+.strataservicebottomleft {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/demoss.jpg");
+    background-size:cover;
+    background-position:center;
+    border:5px solid black;
+    padding:5px;
+    margin:5px;
+    text-align:center;
+}
+.strataservicebottommid {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/Gutters.jpg");
+    background-size:cover;
+    background-position:center;
+    border:5px solid black;
+    padding:5px;
+    margin:5px;
+    text-align:center;
+}
+.strataservicebottomright {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/concrete.jpg");
+    background-size:cover;
+    background-position:center;
+    border:5px solid black;
+    padding:5px;
+    margin:5px;
+    text-align:center;
+}
 /* This is the css for the COMMERCIAL page */
 /* This is the css for the GALLERY page */

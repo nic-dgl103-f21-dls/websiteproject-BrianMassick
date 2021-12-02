@@ -5,12 +5,12 @@
     <title>Window Masters Nanaimo</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="WMstyle.css" type="text/css">
-    <!--link rel="icon" href="image/favicon.ico" type="image/x-icon"-->
+    <link rel="icon" href="images/faviconWM.png" type="image/x-icon">
 
 </head>
 <body>
     <header class="titles">
-        <!--<a href="WMhome.html"><img src="image/digital-logo.png" alt="Window Masters Nanaimo" width="100"></a>-->
+        <a href="WMhome.html"><img src="images/faviconWM.png" alt="Window Masters Nanaimo" width="100"></a>
         <h1>Strata</h1>
         <div>Contact info</div>
     </header>
@@ -26,7 +26,12 @@
         </div>
     </nav>
     <main>
-        <aside>
+      <div class="wrap">
+        <div class="beforeafter">
+          <h2>BEFORE   /</h2>
+          <h2>/   AFTER</h2>
+          </div>
+        <aside class="inquiry">
             <h2>Inquiries</h2>
             <form method="post"><!--Add an action for this form, aka a place for it to send and confirmation-->
                 <label for="fname">First name</label>
@@ -57,10 +62,8 @@
                 <textarea name="comments" id="comments"></textarea>
             </form>
         </aside>
-        <div>
-          <!--Code scrolling images of before/after photos-->
         </div>
-        <div>
+        <div id="stratadiscounts">
           <h2>Strata Discount's</h2>
           <p>When you book job's for your strata through Window Masters Nanaimo 
             we offer discounts based on how many units are being done and what 
@@ -68,7 +71,8 @@
             the "Inquiry" form.
           </p>
         </div>
-        <article>
+        <div class="strataservices">
+        <article class="strataservicetopleft">
           <h3>Exterior Cleaning</h3>
           <p>Exterior cleaning is important for the longevity of your property. 
             As such your property deserves the best cleaning process available. 
@@ -85,7 +89,7 @@
             process you shouldn't need your house cleaned for atleast x years!
           </p>
         </article>
-        <article>
+        <article class="strataservicetopmid">
           <h3>Interior/Exterior Windows</h3>
           <p>We started our business on windows. This is something we do better then 
             anyone else. The process we use for your windows is:
@@ -106,7 +110,7 @@
             cleaner then they have ever seen.
           </p>
         </article>
-        <article>
+        <article class="strataservicetopright">
           <h3>Deck Cleaning</h3>
           <p>When it comes to cleaning your deck we will make sure it shines. 
             We will clean every part of your deck such as:
@@ -123,7 +127,9 @@
             do is pristine and as clean as it can get.
           </p>
         </article>
-        <article>
+        </div>
+        <div class="strataservices">
+        <article class="strataservicebottomleft">
           <h3>De-mossing</h3>
           <p>We starting de-mossing X years ago. Since then we have been improving 
             how we do things and have a fantastic process so we can offer the best 
@@ -137,7 +143,7 @@
             that trustworthy someone.
           </p>
         </article>
-        <article>
+        <article class="strataservicebottommid">
           <h3>Gutters</h3>
           <p>When it comes to gutters we will make sure that they are pristine. 
             We have lots of experience with gutters and have a process that 
@@ -158,7 +164,7 @@
             place to dispose of it.
           </p>
         </article>
-        <article>
+        <article class="strataservicebottomright">
           <h3>Concrete</h3>
           <p>Concrete is something that if not done properly can cause many 
             issues down the road. We will make sure it is proffesionally cleaned 
@@ -183,6 +189,7 @@
             was not taken care of beforehand.
           </p>
         </article>
+        </div>
     </main>
     <footer>
     </footer>
