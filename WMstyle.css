@@ -2,22 +2,32 @@
 body {
     font-size:62.5%;
     font-size:1.6rem;
+    background-color:#8A6E37;
 }
 p {
+    color:rgb(236, 252, 242);
     font-size:1.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight:600;
 }
 h2 {
+    color:#3DB54A;
     text-align:center;
 }
+h3 {
+    color:#3DB54A;
+}
 .titles {
+    color:#3DB54A;
     display:flex;
     flex-wrap:wrap;
     align-items:center;
     justify-content:center;
+    align-items:stretch;
 }
 nav {
     margin:10px;
-    background-color:green;
+    background-color:#8DC641;
 }
 nav .wrap{
     width:800px;
@@ -42,13 +52,14 @@ nav li a {
   padding: 15px;
   display: inline-block;
   text-decoration: none;
-  color: yellow;
+  color:rgb(36, 14, 14);
 }
 nav li a:hover {
     background-color:white;
-    color:aqua;
+    color:rgb(39, 145, 62);
 }
 .inquiry {
+    background-color:beige;
     border:5px solid black;
     margin:10px;
     padding:5px;
@@ -62,11 +73,14 @@ nav li a:hover {
     display:flex;
     flex-direction:row;
     justify-content:space-between;
-    width:100%;
-    max-width:100%;
+    width:99%;
+    max-width:99%;
 }
 /* This is the css for the HOME page */
 .aboutus {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/teamphoto.jpg");
+    background-size:cover;
+    background-position:center;
     width:60%;
     margin:10px;
     padding:1%;
@@ -81,6 +95,9 @@ nav li a:hover {
     white-space:normal;
 }
 .sectionleft {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/Residential.jpg"); /* https://www.pexels.com/photo/house-lights-turned-on-106399/ */
+    background-size:cover;
+    background-position:center;
     border:5px solid black;
     padding:5px;
     margin:5px;
@@ -88,6 +105,9 @@ nav li a:hover {
     /* add shadow to make it look like leaning inwards */
 }
 .sectionmid {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/Commercial.jpg"); /* https://www.pexels.com/photo/7-eleven-store-photo-during-sunset-3116970/ */
+    background-size:cover;
+    background-position:center;
     border:5px solid black;
     padding:5px;
     margin:5px;
@@ -95,6 +115,9 @@ nav li a:hover {
     /* add full shadow */
 }
 .sectionright {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/Strata.jpg"); /* https://unsplash.com/photos/awL_YCtPGv4 */
+    background-size:cover;
+    background-position:center;
     border:5px solid black;
     padding:5px;
     margin:5px;
@@ -107,6 +130,34 @@ nav li a:hover {
     width:100%;
     max-width:100%;
     white-space:normal;
+}
+.knowhow {
+    background-color:#8C240F;
+    border:5px solid black;
+    padding:5px;
+    margin:5px;
+    text-align:center;
+}
+.harm {
+    background-color:#d86732;
+    border:5px solid black;
+    padding:5px;
+    margin:5px;
+    text-align:center;
+}
+.friendly {
+    background-color:#8C240F;
+    border:5px solid black;
+    padding:5px;
+    margin:5px;
+    text-align:center;
+}
+.localbusiness {
+    background-color:#d86732;
+    border:5px solid black;
+    padding:5px;
+    margin:5px;
+    text-align:center;
 }
 /* This is the css for the RESIDENTIAL page */
 .resservices {
