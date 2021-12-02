@@ -15,7 +15,12 @@ h2 {
     text-align:center;
 }
 h3 {
+    font-size:1.4em;
     color:#3DB54A;
+}
+li {
+    color:antiquewhite;
+    font-size:1.0rem;
 }
 .titles {
     color:#3DB54A;
@@ -160,6 +165,18 @@ nav li a:hover {
     text-align:center;
 }
 /* This is the css for the RESIDENTIAL page */
+.beforeafter {
+    display:flex;
+    flex-direction:row;
+    background-color:#5c1e1e;
+    background-size:auto;
+    width:60%;
+    border:5px solid black;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    white-space:normal;
+}
 .resservices {
     display:flex;
     flex-wrap:nowrap;
@@ -168,26 +185,67 @@ nav li a:hover {
     max-width:100%;
     font-size:1.0rem;
 }
-.ressectionleft {
+.ressectionlefttop {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/WMafter.jpg");
+    background-size:cover;
+    background-position:center;
     border:5px solid black;
     padding:5px;
     margin:5px;
     text-align:center;
     /* add shadow to make it look like leaning inwards */
 }
-.ressectionmid {
+.ressectionmidtop { /* Photo by Dids from Pexels */
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/Windows.jpg");
+    background-size:cover;
+    background-position:center;
     border:5px solid black;
     padding:5px;
     margin:5px;
     text-align:center;
     /* add shadow */
 }
-.ressectionright {
+.ressectionrighttop {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/Deck.jpg");
+    background-size:cover;
+    background-position:center;
     border:5px solid black;
     padding:5px;
     margin:5px;
     text-align:center;
     /* add shadow to make it look like leaning inwards */
 }
+.ressectionleftbottom { /* Photo by Gilmer Diaz Estela from Pexels */
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/demoss.jpg");
+    background-size:cover;
+    background-position:center;
+    border:5px solid black;
+    padding:5px;
+    margin:5px;
+    text-align:center;
+    /* add shadow to make it look like leaning inwards */
+}
+.ressectionmidbottom {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/Gutters.jpg");
+    background-size:cover;
+    background-position:center;
+    border:5px solid black;
+    padding:5px;
+    margin:5px;
+    text-align:center;
+    /* add shadow */
+}
+.ressectionrightbottom {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/concrete.jpg");
+    background-size:cover;
+    background-position:center;
+    border:5px solid black;
+    padding:5px;
+    margin:5px;
+    text-align:center;
+    /* add shadow to make it look like leaning inwards */
+}
+/* This is the css for the STRATA page */
+
 /* This is the css for the COMMERCIAL page */
 /* This is the css for the GALLERY page */
